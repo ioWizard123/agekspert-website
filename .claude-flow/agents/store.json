@@ -1,0 +1,33 @@
+{
+  "agents": {
+    "agent-1778700444308-ubsox1": {
+      "agentId": "agent-1778700444308-ubsox1",
+      "agentType": "researcher",
+      "status": "idle",
+      "health": 1,
+      "taskCount": 0,
+      "config": {
+        "task": "AG-EKSPERT Market Research",
+        "model": "sonnet"
+      },
+      "createdAt": "2026-05-13T19:27:24.308Z",
+      "model": "sonnet",
+      "modelRoutedBy": "explicit"
+    },
+    "agent-1778700444503-4jdyxi": {
+      "agentId": "agent-1778700444503-4jdyxi",
+      "agentType": "system-architect",
+      "status": "idle",
+      "health": 1,
+      "taskCount": 0,
+      "config": {
+        "task": "AG-EKSPERT Architecture & Strategy Design",
+        "model": "sonnet"
+      },
+      "createdAt": "2026-05-13T19:27:24.503Z",
+      "model": "sonnet",
+      "modelRoutedBy": "explicit"
+    }
+  },
+  "version": "3.0.0"
+}

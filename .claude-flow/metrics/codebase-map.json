@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-05-14T06:04:08.116Z",
+  "projectRoot": "C:\\Claude\\Teta stranica",
+  "structure": {
+    "hasPackageJson": true,
+    "hasTsConfig": false,
+    "hasClaudeConfig": true,
+    "hasClaudeFlow": true
+  },
+  "scannedAt": 1778738648116
+}

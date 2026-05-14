@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "project": "teta-stranica",
+  "ruflo": {
+    "enabled": true,
+    "topology": "hierarchical-mesh",
+    "maxAgents": 8,
+    "strategy": "specialized"
+  },
+  "memory": {
+    "enabled": true,
+    "hnsw": true,
+    "neural": true,
+    "namespace": "teta-stranica"
+  },
+  "swarm": {
+    "consensus": "raft",
+    "healthCheck": true
+  },
+  "permissions": {
+    "bash": ["npm install", "npm run build", "npm test", "npm start", "node scripts/*"],
+    "git": true,
+    "mcp": true
+  }
+}

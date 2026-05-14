@@ -1,0 +1,10 @@
+AG-EKSPERT WEB ARCHITECTURE DESIGN PIPELINE
+===========================================
+
+KOORDINACIJSKA SEKVENCA:
+1. RESEARCHER analizira kontekst AG-EKSPERT-a
+2. ARCHITECT dizajnira strukturu na temelju nalaza
+3. CODER kreira tehničke specifikacije za implementaciju
+
+Svaki agent šalje rezultate sljedećem agentu via SendMessage.
+Pipeline se pokreće sa svim agentima istovremeno sa run_in_background: true.
